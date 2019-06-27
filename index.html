@@ -1,66 +1,78 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Unicornio Web Profesional</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./css/index.css'>
-    <script src='./js/index.js'></script>
-    <link href="https://fonts.googleapis.com/css?family=Dosis:400,700&display=swap" rel="stylesheet">
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+		<title>Unicornio Web Profesional</title>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+		<link rel='stylesheet' type='text/css' media='screen' href='./css/index.css'>
+		<script src='./js/index.js'></script>
+		<link href="https://fonts.googleapis.com/css?family=Dosis:400,700&display=swap" rel="stylesheet">
 	</head>
 	<body>
-				<div class="Sidebar-Container">
-					<section class="Sidebar">
-						<a href="#" class="Sidebar-Unicornio">
-							<img src="./icons/unicorn.png" alt="Unicornio">
-						</a>
-						<div class="Sidebar-Social">
-							<a href="https://instagram.com">
-								<img src="./icons/instagram.png" alt="instagram">
-							</a>
-							<a href="https://twitter.com">
-								<img src="./icons/twitter.png" alt="twitter">
-							</a>
-							<a href="https://youtube.com">
-								<img src="./icons/youtube.png" alt="youtube">
-							</a>
-							<a href="https://whatsapp.com">
-								<img src="./icons/whatsapp.png" alt="whatsapp">
-							</a>
-						</div>
-					</section>
+		<div class="Sidebar-Container">
+			<section class="Sidebar">
+				<a href="#" class="Sidebar-Unicornio">
+					<img src="./icons/unicorn.png" alt="Unicornio" class="Unicorn">
+				</a>
+				<div class="Sidebar-Social">
+					<a href="https://instagram.com">
+						<img src="./icons/instagram.png" alt="instagram">
+					</a>
+					<a href="https://twitter.com">
+						<img src="./icons/twitter.png" alt="twitter">
+					</a>
+					<a href="https://youtube.com">
+						<img src="./icons/youtube.png" alt="youtube">
+					</a>
+					<a href="https://whatsapp.com">
+						<img src="./icons/whatsapp.png" alt="whatsapp">
+					</a>
 				</div>
-
-			<header class="Hero-Container">
-					<nav class="Hero-NavBar">
-						<a href="#">Inicio</a>
-						<a href="#About">Sobre Mi</a>
-						<a href="#Portafolio">Portafolio</a>
-					</nav>
-					<h1 class="Hero-Title">Unicornio Web <br> Profesional</h1>
-					<div class="Hero-Image-Container">
-						<img src="./icons/image.png" alt="Image">
-					</div>
-			</header>
+			</section>
+		</div>
+		<header class="Hero-Container">
+			<nav class="Hero-NavBar">
+				<a href="#">Inicio</a>
+				<a href="#About">Sobre Mi</a>
+				<a href="#Portafolio">Portafolio</a>
+			</nav>
+			<a href="#">
+				<img src="./icons/unicorn.png" alt="Unicornio" class="Hero-Unicorn Unicorn">
+			</a>
+			<h1 class="Hero-Title">Unicornio Web <br> Profesional</h1>
+			<div class="Hero-Image-Wrapper-Container">
+				<div class="Hero-Image-Container">
+					<img src="./icons/image.png" alt="Image" class="Hero-Image">
+				</div>
+			</div>
+		</header>
 		<div class="UnderHero">
 			<section class="Habilidades">
 				<div class="Habilidades-Card Habilidades-Card-Desarrollo">
 					<img src="./icons/development.png" alt="Desarrollo Web" class="Habilidades-Card-Image">
-					<div>
+					<div class="Habilidades-Card-Text">
 						<h4 class="Habilidades-Card-Title">Desarrollo Web</h4>
-						<p class="Habilidades-Card-Description">HTML + CSS + Responsive Design</p>
+						<p class="Habilidades-Card-Description">
+							<span class="Habilidades-Card-Description-Desarrollo-1">HTML + CSS + </span>
+							<span class="Habilidades-Card-Description-Desarrollo-2"> Responsive Design</span>
+						</p>
 					</div>
 				</div>
 				<div class="Habilidades-Card Habilidades-Card-Diseño">
 					<img src="./icons/design.png" alt="Diseño Web" class="Habilidades-Card-Image">
-					<div>
+					<div class="Habilidades-Card-Text">
 						<h4 class="Habilidades-Card-Title">Diseño Web</h4>
-						<p class="Habilidades-Card-Description">UI/UX + Adobe XD/Figma + Zepelin</p>
+						<p class="Habilidades-Card-Description">
+							<span class="Habilidades-Card-Description-Dieseño-1">UI/UX + Adobe XD/Figma + </span>
+							<span class="Habilidades-Card-Description-Diseño-2">Zepelin</span>
+						</p>
 					</div>
 				</div>
 			</section>
-			<img src="./icons/rocket.png" alt="cohete" class="Cohete">
+			<div class="Cohete-Container">
+				<img src="./icons/rocket.png" alt="cohete" class="Cohete">
+			</div>
 			<section class="About">
 				<h2 class="About-Title">Sobre mí</h2>
 				<div class="About-Card">
@@ -71,7 +83,9 @@
 				</div>
 			</section>
 			<section class="Proyects">
-				<h2 class="Proyects-Title">Proyectos</h2>
+				<div class="Proyects-Title-Container">
+					<h2 class="Proyects-Title">Proyectos</h2>
+				</div>
 				<div class="Proyects-Cards-Container">
 					<div class="Proyects-Card">
 						<img src="./icons/Proyecto-React-Navigation3.webp" alt="Proyecto React Navigation" class="Proyects-Card-Image">
@@ -83,7 +97,7 @@
 			</section>
 		</div>
 		<footer>
-			<p>Hecho con ❤ por <a href="https://twitter.com/luisoteko">@luisoteko</a></p>
+			<p>Hecho con 💜 por <a href="https://twitter.com/luisoteko">@luisoteko</a></p>
 		</footer>
 	</body>
 </html>
