@@ -6,7 +6,7 @@
 	height: 300px;
 	box-shadow: 0px 4px 9px -4px rgba(157, 168, 190, 0.5);
 	background: white;
-	z-index: -2;
+	z-index: 1;
 }
 
 
@@ -24,7 +24,7 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 18px;
-	line-height: 23px;
+	line-height: 20px;
 	border: 25px;
 	text-decoration: none;
 	color: #1A1A4C;
@@ -35,7 +35,7 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 64px;
-	line-height: 81px;
+	line-height: 80px;
 	color: #1A1A4C;
 	width: fit-content;
 	padding: 10px;
@@ -51,7 +51,7 @@
 	position: relative;
 	left: 60%;
 	top: -150px;
-	z-index: 1;
+	z-index: 4;
 }
 
 .Hero-Image-Container img {
@@ -102,10 +102,9 @@
 	top: 300px;
 	background-color: #F7FCFF;
 	width: fit-content;
-	z-index: 0;
 	width: 90.9%;
 	padding: 0 0 0 9.8%;
-	z-index: -3;
+	z-index: -1;
 }
 
 .Habilidades-Card{
@@ -139,7 +138,7 @@
 	font-style: normal;
 	font-weight: 500;
 	font-size: 18px;
-	line-height: 23px;
+	line-height: 20px;
 
 	color: #596188;
 }
@@ -182,7 +181,7 @@
 	font-style: normal;
 	font-weight: 500;
 	font-size: 18px;
-	line-height: 32px;
+	line-height: 30px;
 	color: #596188;
 }
 
@@ -191,7 +190,52 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 18px;
-	line-height: 32px;
+	line-height: 30px;
 	color: #596188;
 	padding-left: 35px;
+}
+
+.Proyects-Cards-Container{
+	display: grid;
+	grid-template-columns: 49% 49%;
+}
+
+.Proyects-Title {
+	font-family: Dosis;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 60px;
+	text-align: center;
+	color: #1A1A4C;
+	margin-top: 0;
+}
+.Proyects-Card{
+	border-radius: 8px;
+	padding: 40px;
+	padding-left: 60px;
+	width: 75%;
+}
+
+.Proyects-Card-Image{
+	width: 100%;
+}
+
+footer{
+	position: absolute;
+	bottom: -950px;
+	background-color: #E92042;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	color: #1A1A4C;
+	left: 0;
+	font-family: Dosis;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+}
+footer a{
+	text-decoration: none;
+	color: #1A1A4C;
 }
