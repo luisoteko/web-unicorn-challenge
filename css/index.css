@@ -8,6 +8,7 @@ body{
 }
 
 .Unicorn{
+	width: 0;
 	animation: rollInUnicorn 2s linear 1 forwards running;
 }
 
@@ -81,6 +82,7 @@ body{
 	box-shadow: 0px 4px 8px rgba(157, 168, 190, 0.5);
 	z-index: 4;
 	animation: rollInImageContainer 2s linear 1 1s forwards running;
+
 }
 
 .Hero-Image-Container img {
